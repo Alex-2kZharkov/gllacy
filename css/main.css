@@ -167,7 +167,7 @@ input[type="radio"].visually-hidden {
   display: block;
   padding: 6px 14px;
 
-  transition: 0.2s ease;
+  transition: background-color 0.2s ease;
   position: relative;
   border-radius: 16px;
 }
@@ -219,9 +219,15 @@ input[type="radio"].visually-hidden {
 
   padding: 0;
 
-  background-image: url("../img/svg/loupe.svg");
+  background-image: url("../img/svg/icons.svg");
   background-repeat: no-repeat;
-	background-position: 8px 7px;
+  background-position: 7px 7px;
+  background-size: 245px 152px;
+}
+
+.search a:hover,
+.search a:focus {
+  background-position: -18px 7px;
 }
 
 .user-navigation .login-link,
@@ -239,27 +245,49 @@ input[type="radio"].visually-hidden {
   content: "";
 
   position: absolute;
-  top: 6px;
+  top: 5px;
   left: 15px;
 
   width: 21px;
-  height: 20px;
+  height: 21px;
 
   background-repeat: no-repeat;
   background-position: 0 0;
 }
 
 .login-link::before {
-  background-image: url("../img/svg/entrance.svg");
+  background-image: url("../img/svg/icons.svg");
+  background-repeat: no-repeat;
+  background-position: -56px 0;
+  background-size: 245px 152px;
+}
+
+.login-link:hover::before,
+.login-link:focus::before {
+  background-position: -77px 0;
 }
 
 .cart-link::before {
-  background-image: url("../img/svg/basket.svg");
+  background-image: url("../img/svg/icons.svg");
+  background-repeat: no-repeat;
+  background-position: -121px 0;
+  background-size: 245px 152px;
+}
+
+.cart-link:hover::before,
+.cart-link:focus::before {
+  background-position: -143px 0;
 }
 
 .cart-link.cart-full {
   color: #323232;
   background: #fff;
+}
+
+.cart-full::before,
+.cart-full:hover::before,
+.cart-full:focus::before {
+  background-position: -99px 0;
 }
 
 .cart-del {
@@ -704,11 +732,13 @@ div.catalog-item:not(:last-child) {
 
 .hit-item::after {
   content: '';
-  background: #fff;
-  background: url("../img/svg/hit.svg");
+  background-image: url("../img/svg/icons.svg");
+  background-repeat: no-repeat;
+  background-position: -180px -90px;
+  background-size: 245px 152px;
 
-  width: 61px;
-  height: 61px;
+  width: 62px;
+  height: 62px;
 
   position: absolute;
   top: 0;
@@ -829,19 +859,31 @@ div.catalog-item:not(:last-child) {
 }
 
 .features-item:nth-child(1)::before{
-  background-image: url("../img/svg/ice-cream.svg");
+  background-image: url("../img/svg/icons.svg");
+  background-repeat: no-repeat;
+  background-position: 0 -32px;
+  background-size: 245px 152px;
 }
 
 .features-item:nth-child(2)::before{
-  background-image: url("../img/svg/eco.svg");
+  background-image: url("../img/svg/icons.svg");
+  background-repeat: no-repeat;
+  background-position: -100px -32px;
+  background-size: 245px 152px;
 }
 
 .features-item:nth-child(3)::before{
-  background-image: url("../img/svg/cow.svg");
+  background-image: url("../img/svg/icons.svg");
+  background-repeat: no-repeat;
+  background-position: -50px -32px;
+  background-size: 245px 152px;
 }
 
 .features-item:nth-child(4)::before{
-  background-image: url("../img/svg/thermometer.svg");
+  background-image: url("../img/svg/icons.svg");
+  background-repeat: no-repeat;
+  background-position: -150px -32px;
+  background-size: 245px 152px;
 }
 
 /* --- End features --- */
@@ -1039,7 +1081,10 @@ div.catalog-item:not(:last-child) {
   width: 15px;
   height: 14px;
 
-  background: url("../img/svg/heart.svg") no-repeat center;
+  background-image: url("../img/svg/icons.svg");
+  background-repeat: no-repeat;
+  background-position: -161px -93px;
+  background-size: 245px 152px;
   position: absolute;
   top: 0;
   left: -22px;
@@ -1216,9 +1261,10 @@ div.catalog-item:not(:last-child) {
   cursor: pointer;
 
   border: none;
-  background: url(../img/svg/icon-down-dir.svg) no-repeat center right 16px,
+  background: url(../img/svg/icons.svg) no-repeat 172px -114px,
              rgba(255, 255, 255, 0.2);
- 
+  background-size: 245px 152px;
+
   -webkit-appearance: none;
   -moz-appearance: none;
   -o-text-overflow: '';
@@ -1231,6 +1277,7 @@ div.catalog-item:not(:last-child) {
 .filter-dropdown:hover,
 .filter-dropdown:focus {
   color: #323232;
+  background-position: 172px -85px;
 }
 
 #slider-range {
@@ -1270,10 +1317,15 @@ input[type=range]::-webkit-slider-runnable-track {
   background: rgba(255, 255, 255, 0.5);
 }
 input[type=range]::-webkit-slider-thumb {
-  height: 20px;
-  width: 20px;
+  background-image: url("../img/svg/icons.svg");
+  background-repeat: no-repeat;
+  background-position: -138px -88px;
+  background-size: 245px 152px;
+  
+  height: 23px/*20px*/;
+  width: 20px/*20px*/;
   border-radius: 12px;
-  background: #ffffff;
+  /*background: #ffffff;*/
   cursor: pointer;
   -webkit-appearance: none;
   margin-top: -9px;
@@ -1281,8 +1333,9 @@ input[type=range]::-webkit-slider-thumb {
   z-index: 1;
 }
 input[type=range]::-webkit-slider-thumb:hover {
-  height: 22px;
-  width: 22px;
+  background-position: -137px -115px;
+  height: 26px;
+  width: 24px;
   margin-top: -10px;
 }
 input[type=range]:focus::-webkit-slider-runnable-track {
@@ -1355,8 +1408,7 @@ input[type=range]:focus::-ms-fill-upper {
 .filter-indicator {
   vertical-align: text-bottom;
   opacity: .8;
-  transition: opacity 0.2s ease,
-              background 0.2s ease;
+  transition: opacity 0.2s ease;
   margin-right: 6px;
 }
 
@@ -1374,7 +1426,7 @@ input[type=range]:focus::-ms-fill-upper {
 }
 
 .filter-fat .filter-indicator {
-  width: 22px;
+  width: 23px;
   height: 22px;
 }
 
@@ -1386,19 +1438,25 @@ input[type=range]:focus::-ms-fill-upper {
 }
 
 .filter-input-checkbox + .filter-indicator {
-  background: url(../img/svg/checkbox-off.svg) no-repeat left;
+  background-image: url("../img/svg/icons.svg");
+  background-repeat: no-repeat;
+  background-position: -37px -87px;
+  background-size: 245px 152px;
 }
 
 .filter-input-checkbox:checked + .filter-indicator {
-  background: url(../img/svg/checkbox-on.svg) no-repeat left;
+  background-position: -64.6px -87px;
 }
 
 .filter-input-radio + .filter-indicator {
-  background: url(../img/svg/radio-off.svg) no-repeat left;
+  background-image: url("../img/svg/icons.svg");
+  background-repeat: no-repeat;
+  background-position: -90px -88px;
+  background-size: 245px 152px;
 }
 
 .filter-input-radio:checked + .filter-indicator {
-  background: url(../img/svg/radio-on.svg) no-repeat left;
+  background-position: -113px -88px;
 }
 
 .filter-button {
@@ -1453,7 +1511,8 @@ input[type=range]:focus::-ms-fill-upper {
   margin-bottom: 36px;
 }
 
-.catalog-item:hover {
+.catalog-item:hover,
+.catalog-item:focus-within {
   z-index: 1;
 }
 
