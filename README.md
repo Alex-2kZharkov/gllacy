@@ -4,9 +4,12 @@
 
 ### ❤️ Что мне нравится в проекте
 
+* Реализация слайдера без js
 * Сайт меняет цвет при листании слайдера
 * Слайдер с эффектом расстворения
-* Доступность, управление с клавиатуры
+* Использование SVG-спрайта
+* Доступный для скринридеров
+* Удобен для использования с клавиатуры
 * Получилось задизайнить ползунок цены в соответствии с макетом, хотя это было очень сложно
 * Кроссбраузерный, валидный
 
@@ -21,6 +24,50 @@
 * В Safari пропадает сердечко у ссылки "Для поставщиков" в подвале сайта
 
 ----
+
+![Демонстрация главной страницы](https://raw.githubusercontent.com/chrisryana/gllacy/70b7adb0bffb5df8521de77f801a4150a831c8b9/index.gif)
+![Демонстрация каталога](https://raw.githubusercontent.com/chrisryana/gllacy/70b7adb0bffb5df8521de77f801a4150a831c8b9/catalog.gif)
+
+### Макеты
+
+<table>
+  <tr>
+  <th><a href="https://raw.githubusercontent.com/chrisryana/gllacy/70b7adb0bffb5df8521de77f801a4150a831c8b9/gllacy-index-1200.jpg">Главная страница 1200</a></th>
+  <th><a href="https://raw.githubusercontent.com/chrisryana/gllacy/70b7adb0bffb5df8521de77f801a4150a831c8b9/gllacy-catalog-1200.jpg">Страница каталога товаров 1200</a></th>
+<th><a href="https://raw.githubusercontent.com/chrisryana/gllacy/70b7adb0bffb5df8521de77f801a4150a831c8b9/gllacy-index-900.jpg">Главная страница 900</a></th>  
+  </tr>
+	
+  <tr valign="top">
+    <td>
+      <a href="https://raw.githubusercontent.com/chrisryana/gllacy/70b7adb0bffb5df8521de77f801a4150a831c8b9/gllacy-index-1200.jpg" target="_blank">
+        <img src="https://raw.githubusercontent.com/chrisryana/gllacy/70b7adb0bffb5df8521de77f801a4150a831c8b9/gllacy-index-1200.jpg" width="250" alt="Главная страница 1200">
+      </a>
+    </td>
+    <td>
+      <a href="https://raw.githubusercontent.com/chrisryana/gllacy/70b7adb0bffb5df8521de77f801a4150a831c8b9/gllacy-catalog-1200.jpg" target="_blank"><img src="https://raw.githubusercontent.com/chrisryana/gllacy/70b7adb0bffb5df8521de77f801a4150a831c8b9/gllacy-catalog-1200.jpg" width="250" alt="Страница каталога товаров 1200"></a>
+    </td>
+	<td>
+      <a href="https://raw.githubusercontent.com/chrisryana/gllacy/70b7adb0bffb5df8521de77f801a4150a831c8b9/gllacy-catalog-1200.jpg" target="_blank"><img src="https://raw.githubusercontent.com/chrisryana/gllacy/70b7adb0bffb5df8521de77f801a4150a831c8b9/gllacy-index-900.jpg" width="250" alt="Главная страница 900"></a>
+    </td>
+  </tr>
+  
+  <tr>
+  <th><a href="https://raw.githubusercontent.com/chrisryana/gllacy/70b7adb0bffb5df8521de77f801a4150a831c8b9/gllacy-catalog-900.jpg">Страница каталога товаров 900</a></th>
+  <th><a href="https://raw.githubusercontent.com/chrisryana/gllacy/70b7adb0bffb5df8521de77f801a4150a831c8b9/styleguide.jpg">Стайлгайд</a></th>
+	<th></th>
+  </tr>
+  
+  <tr valign="top">
+    <td>
+      <a href="https://raw.githubusercontent.com/chrisryana/gllacy/70b7adb0bffb5df8521de77f801a4150a831c8b9/gllacy-catalog-900.jpg" target="_blank">
+        <img src="https://raw.githubusercontent.com/chrisryana/gllacy/70b7adb0bffb5df8521de77f801a4150a831c8b9/gllacy-catalog-900.jpg" width="250" alt="Страница каталога товаров 900">
+      </a>
+    </td>
+    <td>
+      <a href="https://raw.githubusercontent.com/chrisryana/gllacy/70b7adb0bffb5df8521de77f801a4150a831c8b9/styleguide.jpg" target="_blank"><img src="https://raw.githubusercontent.com/chrisryana/gllacy/70b7adb0bffb5df8521de77f801a4150a831c8b9/styleguide.jpg" width="250" alt="Стайлгайд"></a>
+    </td>
+  </tr>
+</table>
 
 ## Техническое задание
 
