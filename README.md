@@ -58,7 +58,6 @@
   <tr>
   <th><a href="https://raw.githubusercontent.com/chrisryana/gllacy/70b7adb0bffb5df8521de77f801a4150a831c8b9/gllacy-catalog-900.jpg">Страница каталога товаров 900</a></th>
   <th><a href="https://raw.githubusercontent.com/chrisryana/gllacy/70b7adb0bffb5df8521de77f801a4150a831c8b9/styleguide.jpg">Стайлгайд</a></th>
-	<th></th>
   </tr>
   
   <tr valign="top">
